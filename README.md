@@ -23,3 +23,7 @@ This project implements a **Retrieval-Augmented Question Answering (RAG)** pipel
 - Natural language querying over student databases  
 - Prototype for tabular RAG systems
 
+## 📂 Dataset
+
+The student dataset used in this project is available on Kaggle:  
+[Students Grading Dataset (Biased)](https://www.kaggle.com/datasets/mahmoudelhemaly/students-grading-dataset?select=Students_Grading_Dataset_Biased.csv)
