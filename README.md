@@ -1,34 +1,25 @@
-# Retrieval-Augmented-Question-Answering-QA-System-using-FAISS-TAPAS
-This project implements a Retrieval-Augmented Question Answering (RAG) pipeline for structured tabular data. Using a student dataset (CSV), the system enables natural language queries over the data.
+# 📊 Retrieval-Augmented Question Answering (RAG) with FAISS + TAPAS
 
-## Workflow
+This project implements a **Retrieval-Augmented Question Answering (RAG)** pipeline for **structured tabular data**. Using a student dataset (CSV), the system allows **natural language queries** over the data.
 
-1)Data Ingestion – Load and preprocess student dataset (CSV).
+## 🔄 Workflow
 
-2)Vector Indexing – Store embeddings in a FAISS vector database for fast similarity search.
+1. **Data Ingestion** – Load and preprocess the student dataset (CSV).  
+2. **Vector Indexing** – Store embeddings in a **FAISS vector database** for fast similarity search.  
+3. **Retrieval** – Fetch relevant rows from the dataset based on the query.  
+4. **Question Answering** – Use Google’s **TAPAS model** (Table-based Transformer) to answer natural language questions.
 
-3)Retrieval – Retrieve relevant rows from the dataset based on the user’s query.
+## 🛠 Tech Stack
 
-4)Question Answering – Use Google’s TAPAS model (Table-based Transformer) to answer natural language questions from retrieved data.
+- **Python**  
+- **FAISS** (vector database)  
+- **Hugging Face Transformers** – TAPAS model  
+- **Pandas** – dataset processing  
+- **Jupyter Notebook** – development environment  
 
-## Tech Stack
+## 📌 Use Cases
 
-Python
+- Educational data analytics  
+- Natural language querying over student databases  
+- Prototype for tabular RAG systems
 
-FAISS (vector database)
-
-Transformers (Hugging Face) – TAPAS model
-
-Pandas for dataset processing
-
-Jupyter Notebook for development
-
-
-
-# Use Cases
-
-Educational data analytics
-
-Natural language querying over student databases
-
-Prototype for tabular RAG systems
