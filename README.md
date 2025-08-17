@@ -2,6 +2,13 @@
 
 This project implements a **Retrieval-Augmented Question Answering (RAG)** pipeline for **structured tabular data**. Using a student dataset (CSV), the system allows **natural language queries** over the data.
 
+
+## 📂 Dataset
+
+The student dataset used in this project is available on Kaggle:  
+[Students Grading Dataset](https://www.kaggle.com/datasets/mahmoudelhemaly/students-grading-dataset?select=Students+Performance+Dataset.csv)
+
+
 ## 🔄 Workflow
 
 1. **Data Ingestion** – Load and preprocess the student dataset (CSV).  
@@ -23,7 +30,4 @@ This project implements a **Retrieval-Augmented Question Answering (RAG)** pipel
 - Natural language querying over student databases  
 - Prototype for tabular RAG systems
 
-## 📂 Dataset
 
-The student dataset used in this project is available on Kaggle:  
-[Students Grading Dataset](https://www.kaggle.com/datasets/mahmoudelhemaly/students-grading-dataset?select=Students+Performance+Dataset.csv)
