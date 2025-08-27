@@ -1,1 +1,8 @@
+Query: what is the Department of student id:S1000?
+Answer: ['Business']
 
+Query: what is the last name of student id:S1921?
+Answer: ['Williams']
+
+Query: what is the email of Omar Davis?
+Answer: ['student1053@university.com']
